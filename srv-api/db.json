@@ -1,0 +1,236 @@
+{
+    "nome":{
+        "imagemPrincipal": "temp.png",
+        "foto":"dress.png"
+    },
+    "acessorios":[
+    {
+        "id": "1",
+        "foto": "ace1.jpg",
+        "nome": "Bolsa",
+        "valor": "R$ 100,00"
+    },
+
+    {
+        "id": "2",
+        "foto": "ace2.jpg",
+        "nome": "Colar delicado",
+        "valor": "R$ 200,00"
+    },
+
+    {
+        "id": "3",
+        "foto": "ace3.jpg",
+        "nome": "Variedades de tiaras",
+        "valor": "R$ 15,00"
+    },
+    {
+        "id": "4",
+        "foto": "ace4.jpg",
+        "nome": "Oculos",
+        "valor": "R$ 40,00"
+    },
+    {
+        "id": "5",
+        "foto": "ace5.jpg",
+        "nome": "Relogios varias marcas",
+        "valor": "R$ 90,00"
+    },
+    {
+        "id": "6",
+        "foto": "ace6.jpg",
+        "nome": "Aneis",
+        "valor": "R$ 15,00"
+    },
+    {
+        "id": "7",
+        "foto": "ace7.jpg",
+        "nome": "Brincos",
+        "valor": "R$ 10,00"
+    },
+    {
+        "id": "8",
+        "foto": "ace8.jpg",
+        "nome": "Cachecol e ponche",
+        "valor": "R$ 40,00"
+    }
+],
+    "calcados":[
+    
+        {
+            "id": "1",
+            "foto": "cal1.jpg",
+            "nome": "Sandalia Primavera",
+            "valor": "R$ 100,00"
+        },
+        {
+            "id": "2",
+            "foto": "cal2.jpg",
+            "nome": "Bota cano medio",
+            "valor": "R$ 250,00"
+        },
+        {
+            "id": "3",
+            "foto": "cal3.jpg",
+            "nome": "Bota de couro",
+            "valor": "R$ 175,00"
+        },
+        {
+            "id": "4",
+            "foto": "cal4.jpg",
+            "nome": "Sandalia social",
+            "valor": "R$ 99,00"
+        },
+        {
+            "id": "5",
+            "foto": "cal5.jpg",
+            "nome": "Sandalia para passeio",
+            "valor": "R$ 79,00"
+        },
+        {
+            "id": "6",
+            "foto": "cal6.jpg",
+            "nome": "Tamanco branco",
+            "valor": "R$ 100,00"
+        },
+        {
+            "id": "7",
+            "foto": "cal7.jpg",
+            "nome": "Sandalia outono",
+            "valor": "R$ 89,00"
+        },
+        {
+            "id": "8",
+            "foto": "cal8.jpg",
+            "nome": "Sapato social",
+            "valor": "R$ 150,00"
+        }
+    ],
+    "conjuntos":[
+        {
+            "id": "1",
+            "foto": "conj1.jpg",
+            "nome": "Conjunto social",
+            "valor": "R$ 110,00"
+        },
+        {
+            "id": "2",
+            "foto": "conj2.jpg",
+            "nome": "Conjunto para passeio",
+            "valor": "R$ 170,00"
+        },
+        {
+            "id": "3",
+            "foto": "conj3.jpg",
+            "nome": "Conjunto amarelo",
+            "valor": "R$ 190,00"
+        },
+        {
+            "id": "4",
+            "foto": "conj4.jpg",
+            "nome": "Conjunto casual",
+            "valor": "R$ 100,00"
+        },
+        {
+            "id": "5",
+            "foto": "conj5.jpg",
+            "nome": "Conjunto frio",
+            "valor": "R$ 160,00"
+        },
+        {
+            "id": "6",
+            "foto": "conj6.jpg",
+            "nome": "Conjunto casual",
+            "valor": "R$ 110,00"
+        },
+        {
+            "id": "7",
+            "foto": "conj7.jpg",
+            "nome": "Conjunto branco",
+            "valor": "R$ 80,00"
+        },
+        {
+            "id": "8",
+            "foto": "conj8.jpg",
+            "nome": "Conjunto leve",
+            "valor": "R$ 170,00"
+        }
+    ],
+    "vestidos":[
+        {
+            "id": "1",
+            "foto": "ves1.jpg",
+            "nome": "Vestido de camurça",
+            "valor": "R$ 110,00"
+        },
+        {
+            "id": "2",
+            "foto": "ves2.jpg",
+            "nome": "Vestido cinza",
+            "valor": "R$ 210,00"
+        },
+        {
+            "id": "3",
+            "foto": "ves3.jpg",
+            "nome": "Vestido curto",
+            "valor": "R$ 210,00"
+        },
+        {
+            "id": "4",
+            "foto": "ves4.jpg",
+            "nome": "Vestido curto",
+            "valor": "R$ 270,00"
+        },
+        {
+            "id": "5",
+            "foto": "ves5.jpg",
+            "nome": "Vestido curto",
+            "valor": "R$ 210,00"
+        },
+        {
+            "id": "6",
+            "foto": "ves6.jpg",
+            "nome": "Vestido inverno",
+            "valor": "R$ 110,00"
+        },
+        {
+            "id": "7",
+            "foto": "ves7.jpg",
+            "nome": "Vestido longo",
+            "valor": "R$ 120,00"
+        },
+        {
+            "id": "8",
+            "foto": "ves8.jpg",
+            "nome": "Vestido florido",
+            "valor": "R$ 210,00"
+        }
+    ],
+
+    "categorias":[
+        {
+            "id": "1",
+            "foto": "vestidos.jpg",
+            "link": "vestidos",
+            "nome": "vestidos"
+        },
+        {
+            "id": "2",
+            "foto": "conjuntos.jpg",
+            "link": "conjuntos",
+            "nome": "conjuntos"
+        },
+        {
+            "id": "3",
+            "foto": "calcados.jpg",
+            "link": "caldacos",
+            "nome": "Calçados"
+        },
+        {
+            "id": "4",
+            "foto": "acessorios.jpg",
+            "link": "acessorios",
+            "nome": "Acessorios"
+        }
+    ]
+}
