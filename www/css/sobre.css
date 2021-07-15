@@ -1,0 +1,30 @@
+section > h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    padding: 10px;
+    margin-left: 700px;
+}
+
+.test{
+    text-align: center;
+    color: aliceblue;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 2px;
+    font-size: 28px;
+    margin-top: 1px;
+}
+
+.test2{
+    background-color: rgb(231, 174, 103);
+    margin-bottom: 7px;
+    padding: 15px;
+    font-size: 28px;
+    margin-top: 9px;
+}
+
+p{
+    padding: 10px;
+}
+

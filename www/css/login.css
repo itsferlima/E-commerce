@@ -1,0 +1,54 @@
+.fonte{
+    font-size: 18px;
+    color: #ff8a0c;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-color: rgba(146, 149, 151, 0.678);
+}
+
+.text{
+    color: rgb(126, 77, 21);
+}
+
+#cadastrar{
+    color:rgb(126, 77, 21);
+    font-weight: bold;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #fda72791;
+    color: rgb(126, 77, 21);
+    margin-top: 10px;
+    font-weight: bolder;
+    border-color: rgba(146, 149, 151, 0.308);
+}
+
+.button:hover{
+    box-shadow: rgba(146, 149, 151, 0.308);
+}
+
+.campos{
+    border-radius: 5px;
+    background-color: #f2e2ca;
+}
+
+.formulario{
+    background-image: url('imagem/login.jgp');
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 200px;
+}
+
+.loginform{
+    margin: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    width: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(146, 149, 151, 0.308);
+}
