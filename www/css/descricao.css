@@ -1,0 +1,76 @@
+.produto{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.inf{
+    display: block;
+    text-align: center;
+    border: dotted;
+    padding: 50px 100px 50px 100px;
+    border-color: rgb(218, 125,19);
+    background-color: antiquewhite;
+}
+
+.inf > h2{
+    padding: 10px;
+    color: rgb(165, 87, 42);
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+.inf> p{
+    padding: 10px;
+    color: rgb(165, 87, 42);
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+#tamanho{
+    position: 10px;
+    color: rgb(165, 87, 42);
+    margin-bottom: 10px;
+    font-size: 3vh;
+}
+
+.inf > input{
+    width: 5vh;
+    padding: 20px;
+}
+.produto> img{
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
+.inf > button{
+    margin-top: 20px;
+}
+button:hover{
+    box-shadow: rgba(85, 47, 22, 0.733) 0.1em 0.1em 0.2em; 
+}
+
+.inf > button{
+    color: rgb(126, 77, 21);
+    border-radius: 2.5px;
+    margin-top: 20px;
+    font-weight: bolder;
+    border-color: rgba(146, 149, 151, 0.308);
+}
+
+.descricao{
+    margin: 4vh 10vh 4vh 10vh;
+}
+
+.descricao> h2{
+    color: rgb(165, 87, 42);
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.descricao> p{
+    color: rgb(165, 87, 42);
+    font-weight: bold;
+    font-size: 2vh;
+}

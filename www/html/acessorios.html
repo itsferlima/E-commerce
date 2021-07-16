@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="css/produto.css">
+
+<section>
+    <div class ="nomepag">
+        <h1 style="font-size: 25px; text-shadow: rgb(83, 39,9) 0.1em 0.1em 0.2em">Acessórios</h1>
+        <div class="icone">
+            <a href="/login"><img scr="imagem/usuario.png" alt="login" class="img1"></a>
+            <a href="/carrinho"><img scr="imagem/carrinho.png" alt="carrinho" class="img2"></a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="filtro">
+            <br class="p1">
+                <label>Cor:</label><br>
+                <select name="cor">
+                    <option value="00">----</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Vermelho">Vermelho</option>
+                    <option value="Preto">Preto</option>
+                    <option value="Amarelo">Amarelo</option>
+                </select></br>
+
+                <label>Tamanho:</label><br>
+                <select name="tamanho">
+                    <option value="00">----</option>
+                    <option value="pp">PP</option>
+                    <option value="p">P</option>
+                    <option value="m">M</option>
+                    <option value="G">G</option>
+                    <option value="GG">GG</option>
+                </select></br>
+
+                <label>Estação:</label><br>
+                <select name="estacao">
+                    <option value="00">----</option>
+                    <option value="outono">Outono</option>
+                    <option value="primavera">Primavera</option>
+                    <option value="inverno">Inverno</option>
+                    <option value="verão">Verão</option>
+                </select></br>
+
+                <label>Modelos:</label><br>
+                <select name="estacao">
+                    <option value="00">----</option>
+                    <option value="bolsa">Bolsa</option>
+                    <option value="relógio">Relogio</option>
+                    <option value="colar">Colar</option>
+                    <option value="pulseira">Pulseira</option>
+                    <option value="oculos">Oculos</option>
+                </select></br>
+                <button value="submit" name="enviar">Enviar</button><br>
+                <button value="exit" name="apagar">Cancelar</button>
+            </form>
+        </div>
+
+        <div class="container">
+            <% acessorio.forEach(acessorio => {%>
+            </div>
+            <img scr="imagensprod/ace/<%=acessorio.foto%>" width="150px" height="150px"><br>
+            <p><%= acessorio.nome %></p><br>
+            <p><%= acessorio.valor %> &nbsp;&nbsp; <button type="submit">Comprar</button></p>
+    </div>
+
+    <%});%>
+
+</div>
+</div>
+
+</section>

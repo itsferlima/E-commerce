@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="css/produtos.css">
+
+<section>
+    <div class="nomepag">
+        <h1 style="font-size: 25px; text-shadow: rgb(83, 39, 9)0.1em 0.1em 0.2em">Conjuntos</h1>
+        <div class="icone">
+            <a href="/login"><img scr="imagem/usuario.png" alt="login" class="img1"></a>
+            <a href="/carrinho"><img scr="imagem/carrinho.png" alt="carrinho" class="img2"></a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="filtro">
+            <form class="p1">
+                <label>Cor:</label><br>
+                <select name="cor">
+                    <option value="00">------</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Vermelho">Vermelho</option>
+                    <option value="Preto">Preto</option>
+                    <option value="Amarelo">Amarelo</option>
+                </select><br>
+
+                <label>Estação:</label><br>
+                <select name="estacao">
+                    <option value="00">------</option>
+                    <option value="outono">outono</option>
+                    <option value="primavera">primavera</option>
+                    <option value="inverno">inverno</option>
+                    <option value="verão">verão</option>
+                </select><br>
+
+                <button value="submit" name="enviar">Enviar</button><br>
+                <button value="exit" name="apagar">Cancelar</button>
+            </form>
+        </div>
+
+        <div class="container">
+            <% conjunto.forEach(conjunto => {%>
+            </div>
+            <img scr="imagensprod/conj/<%=conjunto.foto%>" width="150px" height="150px"><br>
+            <p><%= conjunto.nome %></p><br>
+            <p><%= conjunto.valor %> &nbsp;&nbsp; <button type="submit">Comprar</button></p>
+    </div>
+
+    <%});%>
+    </div>
+    </div>
+</section>

@@ -1,0 +1,109 @@
+section{
+    color: rgb(126, 77, 21);
+}
+
+section > h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(126, 77, 21);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: bold;
+    max-width: 100%;
+}
+
+.form > p{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.container{
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    background-color: rgba(146, 149, 151, 0.308);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.container > div > input{
+    border-radius: 2.5px;
+    border-color: antiquewhite;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.container > div > button{
+    color: rgb(126, 77, 21);
+    border-radius: 2.5px;
+    margin-top: 10px;
+    font-weight: bolder;
+    border-color: rgba(146, 149, 151, 0.308);
+}
+
+.container> div > textarea{
+    width: 500px;
+    margin-top: 5px;
+    border-color: antiquewhite;
+    border-radius: 2.5px;
+}
+
+.whatsapp{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.whatsapp > p{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.whatsapp> img{
+    width: 50px;
+    font-weight: bold;
+}
+
+.whatsapp> img:hover{
+    filter: brightness(50%);
+}
+
+button:hover{
+    box-shadow: rgba(85, 47, 22, 0.733) 0.1em 0.1em 0.2em;
+}
+
+@media screen and (max-width:800px){
+    .container{
+        width: 80px;
+    }
+
+    .container > div{
+        width: 100%;
+    }
+
+    .container> div > input{
+        border-radius: 2.5px;
+        border-color: antiquewhite;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .container>div > textarea{
+        width: 100%;
+        margin-top: 5px;
+        border-color: antiquewhite;
+        border-radius: 2.5px;
+    }
+
+    .whatsapp{
+        text-align: center;
+        margin-top: 10px;
+    }
+}

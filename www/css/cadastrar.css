@@ -1,0 +1,43 @@
+.fonte{
+    font-size: 18px;
+    color: #ff8a0c;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: rgba(146,149, 151, 0.678);
+    width: 100%;
+}
+
+.campos{
+    border-radius: 3px;
+    background-color: #f2e2ca;
+}
+
+.form{
+    background-image: url('imagem/login.jpg');
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.cadastroform{
+    margin: 10px;
+    background-color: rgba(146,149, 151, 0.678);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #fda72791;
+    color: rgb(126, 77, 21);
+    margin-top: 10px;
+    font-weight: bolder;
+    border-color: rgba(146,149, 151, 0.678);
+    justify-self: center;
+}

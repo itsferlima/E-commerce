@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-bottom: 8em;
+    text-align: center;
+}
+
+.wrapper> div {
+    font-family: "Roboto";
+    border: 2px solid #ffeada;
+    background-color: #ffeada;
+    border-radius: 0px;
+    padding: 10px;
+}
