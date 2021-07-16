@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloTemplate.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Doce Estação</title>
+</head>
+<body> 
+    <!----CABEÇALHO-->
+    <header class="header">
+        <div class="titulo">
+            <div>
+                <img src="./img/logo.png" alt="logo" id="logo">
+            </div>
+            <div class="texto">
+                <h1 class="p1">Doce Estação Modas</h1>
+                <p class="p2">Seu poder é você !</p>
+            </div>
+        </div>
+
+        <input type="checkbox" name="btn_menu" id="btn_menu">
+        <label for="btn_menu" class="btn-menu">&#9776</label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href id="first">Home</a></li>
+                <li><a href id="sobre">Sobre a loja</a></li>
+                <li><a href id="catalogo">Catalogo</a>
+                   <ul>
+                       <li><a href id="acessorios">acessorios</a></li>
+                       <li><a href id="calcados">Calçados</a></li>
+                       <li><a href id="last">Vestidos</a></li>
+                   </ul>
+                </li>
+
+                <li><a href id="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---CODIGO PRINCIPAL-->
+
+    <main></main>
+
+    <!--RODAPÉ-->
+
+    <footer class="footer">
+        <div class="item1">
+            <form class="subscribe">
+                <label for="subscribe">Cadastra-se aqui para receber novidades</label><br>
+                <input type="text" name="email" id="email" placeholder="Digite o seu email aqui">
+                <button><img src="./img/subscribe.png" alt="subscribe"></button>
+            </form>
+        </div>
+
+        <div class="item2">
+            <p>Loja doce estação - Curitiba -PR</p>
+        </div>
+
+        <div class="item3">
+            <p>Siga-nos no Instagram</p>
+            <a href="https://www.instagram.com/doce_estacaomoda/" style="margin-right: 40px;"><img src="./img/instagram.png" alt="Siga-nos no Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
