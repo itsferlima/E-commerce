@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="css/produtos.css">
+
+<section>
+    <div class="nomepag">
+        <h1 style="font-size: 25px; text-shadow: rgb(83,39,9) 0.1em 0.1em 0.2em">Vestidos</h1>
+        <div class="icone">
+            <a href="/login"><img scr="imagem/usuario.png" alt="login" class="img1"></a>
+            <a hreg="/carrinho"><img scr="imagem/carrinho" alt="carrinho" class="img2"></a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="filtro">
+            <form class="p1">
+                <label>Cor:</label><br>
+                <select name="cor">
+                    <option value="00">------</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Vermelho">Vermelho</option>
+                    <option value="Preto">Preto</option>
+                    <option value="Amarelo">Amarelo</option>
+                </select><br>
+
+                <label>Tamnho:</label><br>
+                <select name="tamanho">
+                    <option value="00">------</option>
+                    <option value="pp">PP</option>
+                    <option value="p">P</option>
+                    <option value="m">M</option>
+                    <option value="g">G</option>
+                    <option value="gg">GG</option>
+                </select><br>
+
+                <label>Estação:</label><br>
+                <select name="estacao">
+                    <option value="00">------</option>
+                    <option value="outono">Outono</option>
+                    <option value="primavera">primavera</option>
+                    <option value="inverno">Inverno</option>
+                    <option value="verão">verão</option>
+                </select><br>
+
+                <label>Estilo:</label><br>
+                <select name="tamanho">
+                    <option value="00">------</option>
+                    <option value="pp">Curto</option>
+                    <option value="p">Medio</option>
+                    <option value="m">Longo</option>
+                    <option value="g">Saia</option>
+                </select><br>
+
+                <button value="submit" name="enviar">Enviar</button><br>
+                <button value="exit" name="apagar">Cancelar</button>
+            </form>
+        </div>
+
+        <div class="container">
+            <% vestido.forEach(vestido => {%>
+            </div>
+            <img scr="imagensprod/ves/<%=vestido.foto%>" width="150px" height="150px"><br>
+            <p><%= vestidonome %></p><br>
+            <p><%= vestido.valor %> &nbsp;&nbsp; <button type="submit">Ver produto</button></p>
+        </div>
+        <%});%>
+    </div>
+</div>
+</section>
